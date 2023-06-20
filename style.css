@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@600&family=Lato:wght@300;400&family=Roboto:wght@400;700&display=swap");
+
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #4158d0;
+  background-image: linear-gradient(
+    43deg,
+    #4158d0 0%,
+    #c850c0 46%,
+    #ffcc70 100%
+  );
+
+  height: fit-content;
+  min-height: 100vh;
+  width: 100%;
+
+  display: grid;
+  place-content: center;
+}
+
+#container {
+  display: flex;
+  padding: 10px;
+
+  align-items: center;
+  flex-direction: column;
+  gap: 100px;
+
+  height: 500px;
+  border-radius: 10px;
+  box-shadow: 4.9px 5.4px 7.2px rgba(0, 0, 0, 0.4),
+    13.6px 15px 16.8px rgba(0, 0, 0, 0.261),
+    32.9px 36.2px 34.5px rgba(0, 0, 0, 0.2),
+    109px 120px 99px rgba(0, 0, 0, 0.139);
+}
+
+#title {
+  color: white;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+
+  color: white;
+  font-weight: 600;
+}
+
+#button-container input{
+  border-radius: 10px;
+  border-style: none;
+  outline: gray;
+  padding: 5px;
+  text-align: center;
+}
+
+#results {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+
+#results img {
+  margin-top: 50px;
+  width: 100px;
+  height: 100px;
+}
+
+#results img:hover{
+  cursor: pointer;
+  display: block;
+  width: 105px;
+  height: 105px;
+}
